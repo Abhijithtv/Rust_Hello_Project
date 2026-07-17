@@ -4,7 +4,6 @@ pub fn start(msg: &str){
 }
 
 pub fn end(msg: &str){
-    println!();
     println!("---------------END-{msg}--------------");
     println!();
 }

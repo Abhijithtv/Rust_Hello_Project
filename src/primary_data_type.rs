@@ -12,12 +12,12 @@ pub fn primary_data_type_learn(){
 
 fn assign_float(){
     let num = 1.23;
-    print!("float is-{num}");
+    println!("float is-{num}");
 }
 
 fn assign_char(){
     let c = 'a';
-    print!("char is {c}");
+    println!("char is {c}");
 }
 
 fn assign_bool(){
