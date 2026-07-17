@@ -1,6 +1,7 @@
-mod primary_data_type;
-mod display_helper;
-mod compound_data_type;
+use crate::learners::{compound_data_type, primary_data_type};
+
+mod learners;
+mod helpers;
 
 fn main() {
     primary_data_type::learn_primary_dataype();    

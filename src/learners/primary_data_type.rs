@@ -1,4 +1,4 @@
-use crate::display_helper;
+use crate::helpers::display_helper;
 
 pub fn learn_primary_dataype(){
     let context: &str = "PRIMARY DATA TYPE";

@@ -1,4 +1,4 @@
-use crate::display_helper;
+use crate::helpers::display_helper;
 
 pub fn learn_compound_data_type(){
 let context: &str = "COMPOUND DATA TYPE";
