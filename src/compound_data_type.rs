@@ -1,16 +1,16 @@
 use crate::display_helper;
 
-pub fn compound_data_type_learn(){
+pub fn learn_compound_data_type(){
 let context: &str = "COMPOUND DATA TYPE";
     display_helper::start(context);
-    assign_array();
-    assign_tuple();
-    assign_slice();
-    assign_mut_string();
+    learn_array();
+    learn_tuple();
+    learn_slice();
+    learn_mut_string();
     display_helper::end(context);
 }
 
-fn assign_mut_string(){
+fn learn_mut_string(){
     let mut name = String:: from("GHO");
     let name_copy = &name;
     println!("mut before name - {name}");
@@ -19,7 +19,7 @@ fn assign_mut_string(){
     println!("mut after name - {name}");
 }
 
-fn assign_slice()  {
+fn learn_slice()  {
     let num = &[1, 2, 3, 4];
     println!("slice num is {:?}", num);
 
@@ -30,12 +30,12 @@ fn assign_slice()  {
     println!("slice string are {:?}", str_names);
 }
 
-fn assign_tuple()  {
+fn learn_tuple()  {
     let tuple = ("abc", 1, 2.0);
     println!("tuple values are {:?}", tuple);
 }
 
-fn assign_array(){
+fn learn_array(){
     let arr = [1, 23, 4, 5];
     println!("array values are {:?}", arr);
 }

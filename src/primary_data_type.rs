@@ -1,32 +1,32 @@
 use crate::display_helper;
 
-pub fn primary_data_type_learn(){
+pub fn learn_primary_dataype(){
     let context: &str = "PRIMARY DATA TYPE";
     display_helper::start(context);
-    assign_numbers();
-    assign_bool();
-    assign_char();
-    assign_float();
+    learn_numbers();
+    learn_bool();
+    learn_char();
+    learn_float();
     display_helper::end(context);
 }
 
-fn assign_float(){
+fn learn_float(){
     let num = 1.23;
     println!("float is-{num}");
 }
 
-fn assign_char(){
+fn learn_char(){
     let c = 'a';
     println!("char is {c}");
 }
 
-fn assign_bool(){
+fn learn_bool(){
     let status = true;
     println!("boolean status is {status}");
 }
 
 
-fn assign_numbers(){
+fn learn_numbers(){
     let x = 10;
-    println!("from assign numbers = {x}");
+    println!("from learn numbers = {x}");
 }
