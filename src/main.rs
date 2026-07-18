@@ -1,4 +1,4 @@
-use crate::learners::{compound_data_type, control_flow, function, ownership, primary_data_type, shadowing, struct_data_type};
+use crate::learners::{compound_data_type, control_flow, enum_type, function, ownership, primary_data_type, shadowing, struct_data_type};
 
 mod learners;
 mod helpers;
@@ -11,5 +11,6 @@ fn main() {
     struct_data_type::learn_struct_data_type();
     shadowing::learn_shadowing();
     control_flow::learn_control_flow();
+    enum_type::learn_enum();
 }
 
