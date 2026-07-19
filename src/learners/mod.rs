@@ -7,3 +7,4 @@ pub mod shadowing;
 pub mod control_flow;
 pub mod enum_type;
 pub mod error_handling;
+pub mod collection_type;
