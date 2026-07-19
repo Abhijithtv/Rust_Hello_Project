@@ -6,3 +6,4 @@ pub mod struct_data_type;
 pub mod shadowing;
 pub mod control_flow;
 pub mod enum_type;
+pub mod error_handling;
